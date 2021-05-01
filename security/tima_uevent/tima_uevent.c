@@ -214,7 +214,7 @@ MODULE_DESCRIPTION("TIMA uevent driver");
 MODULE_VERSION("0.1");
 
 module_init(tima_uevent_init);
-module_exit(tima_uevent_exit);
+// module_exit(tima_uevent_exit);
 
 /* char *envp[2]; */
 /* env[0] = data */
