@@ -213,7 +213,7 @@ MODULE_AUTHOR("Ken Chen, geng.c@sta.samsung.com");
 MODULE_DESCRIPTION("TIMA uevent driver");
 MODULE_VERSION("0.1");
 
-module_init(tima_uevent_init);
+// module_init(tima_uevent_init);
 // module_exit(tima_uevent_exit);
 
 /* char *envp[2]; */
